@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.4.246 Kernel Configuration
+# Linux/arm64 4.4.268 Kernel Configuration
 #
 # Compiler: Proton clang version 12.0.0 (https://github.com/llvm/llvm-project 398b81067c8202d2b3e4fec23547b6b64d181459)
 CONFIG_GCC_VERSION=0
@@ -57,7 +57,7 @@ CONFIG_THREAD_INFO_IN_TASK=y
 CONFIG_INIT_ENV_ARG_LIMIT=32
 CONFIG_CROSS_COMPILE=""
 # CONFIG_COMPILE_TEST is not set
-CONFIG_LOCALVERSION="-neXus"
+CONFIG_LOCALVERSION="-neXus-HMP-OldCam-V11"
 # CONFIG_LOCALVERSION_AUTO is not set
 CONFIG_DEFAULT_HOSTNAME=""
 CONFIG_SWAP=y
