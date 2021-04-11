@@ -1,1 +1,1 @@
-#define UTS_RELEASE "4.4.266-neXus-Lavender-old-V10"
+#define UTS_RELEASE "4.4.266-neXus-Lavender-new-V10"
