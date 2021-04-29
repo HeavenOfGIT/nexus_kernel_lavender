@@ -31,8 +31,4 @@ void devfreq_register_boost_device(enum df_device device, struct devfreq *df)
 }
 #endif
 
-<<<<<<< HEAD
 #endif /* _DEVFREQ_BOOST_H_ */
-=======
-#endif /* _DEVFREQ_BOOST_H_ */
->>>>>>> 8020bdfcf620... devfreq_boost: Introduce devfreq boost driver
