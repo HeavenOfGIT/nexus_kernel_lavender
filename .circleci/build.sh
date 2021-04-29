@@ -3,8 +3,8 @@ echo "Cloning dependencies"
 git clone --depth=1 https://github.com/kdrag0n/proton-clang clang
 git clone --depth=1 https://github.com/Prashant-1695/AnyKernel3-1.git AnyKernel
 echo "Done"
-VERSION=V11
 IMAGE=$(pwd)/out/arch/arm64/boot/Image.gz-dtb
+CAMERA=OldCam
 TANGGAL=$(date +"%F-%S")
 START=$(date +"%s")
 KERNEL_DIR=$(pwd)
@@ -65,7 +65,7 @@ function compile() {
 # Zipping
 function zipping() {
     cd AnyKernel || exit 1
-    zip -r9 neXus-${VERSION}-HMP-kernel-lavender-${TANGGAL}.zip *
+    zip -r9 neXus-V11-HMP-${CAMERA}-kernel-lavender-${TANGGAL}.zip *
     cd ..
 }
 sticker
