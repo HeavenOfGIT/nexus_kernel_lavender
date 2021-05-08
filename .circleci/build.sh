@@ -65,7 +65,7 @@ function compile() {
 # Zipping
 function zipping() {
     cd AnyKernel || exit 1
-    zip -r9 neXus-V11-HMP-${CAMERA}-kernel-lavender-${TANGGAL}.zip *
+    zip -r9 neXus-V11.1-HMP-${CAMERA}-kernel-lavender-${TANGGAL}.zip *
     cd ..
 }
 sticker
